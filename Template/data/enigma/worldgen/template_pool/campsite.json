@@ -1,0 +1,24 @@
+{
+    "name": "enigma:campsite",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "enigma:campsite_1",
+          "projection": "terrain_matching",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "enigma:campsite_2",
+          "projection": "terrain_matching",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
